@@ -1,0 +1,3715 @@
+[
+  {
+    "Type": "MFGVendorTablesSetting",
+    "Name": "DA_Vendor_Artisan",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MFGVendorTablesSetting'",
+    "Package": "/Game/Settings/Vendors/DA_Vendor_Artisan",
+    "Properties": {
+      "Vendor": {
+        "TagName": "Vendor.Artisan"
+      },
+      "PlayerUnlockRank": 2,
+      "SellRules": [
+        {
+          "Margin": 0.3,
+          "Rules": [
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Weapon"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Suppressor"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Scope"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Collimator"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  }
+                ],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.1,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Ammo"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Suppressor"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Scope"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Collimator"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Funds"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Laboratory"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.HackingTool"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Electronics"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Tech"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  }
+                ],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Laboratory"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_MorphineSolution'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_MorphineSolution/IS_Misc_MorphineSolution.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_StabilizedMorphineSulfateLiquid'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_StabilizedMorphineSulfateLiquid/IS_Misc_StabilizedMorphineSulfateLiquid.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UspMorphineSulfate'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_UspMorphineSulfate/IS_Misc_UspMorphineSulfate.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_GrayHeroin'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_GrayHeroin/IS_Misc_GrayHeroin.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PureWhiteHeroin'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PureWhiteHeroin/IS_Misc_PureWhiteHeroin.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_LqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_LqMorphineBase/IS_Misc_LqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_MqMorphineBase/IS_Misc_MqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_HqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_HqMorphineBase/IS_Misc_HqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PressurizedSarinCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PressurizedSarinCanister/IS_Misc_PressurizedSarinCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_BiohazardMaterialContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_BiohazardMaterialContainer/IS_Misc_BiohazardMaterialContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PlutoniumCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PlutoniumCanister/IS_Misc_PlutoniumCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_NerveGasCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_NerveGasCanister/IS_Misc_NerveGasCanister.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Key"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                null
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Funds"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.HideoutMaterial.Building"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.HideoutMaterial.Disassembly"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_RocketTargettingHead'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_RocketTargettingHead/IS_Misc_RocketTargettingHead.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_RocketNavigationCircuit'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_RocketNavigationCircuit/IS_Misc_RocketNavigationCircuit.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ChemicalChargesContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_ChemicalChargesContainer/IS_Misc_ChemicalChargesContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PressurizedSarinCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PressurizedSarinCanister/IS_Misc_PressurizedSarinCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MilitaryDroneInterceptor'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_MilitaryDroneInterceptor/IS_Misc_MilitaryDroneInterceptor.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_AiTargettingModule'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_AiTargettingModule/IS_Misc_AiTargettingModule.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MilitaryChemicalsContainmentCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_MilitaryChemicalsContainmentCanister/IS_Misc_MilitaryChemicalsContainmentCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_BiohazardMaterialContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_BiohazardMaterialContainer/IS_Misc_BiohazardMaterialContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ThermoelectricGeneratorCell'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_ThermoelectricGeneratorCell/IS_Misc_ThermoelectricGeneratorCell.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PlutoniumCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PlutoniumCanister/IS_Misc_PlutoniumCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_LastLineDefenceContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_LastLineDefenceContainer/IS_Misc_LastLineDefenceContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_NerveGasCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_NerveGasCanister/IS_Misc_NerveGasCanister.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": true,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_UnlraReliefManifest'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UnlraReliefManifest/IS_Misc_UnlraReliefManifest.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MultibusConverter'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_MultibusConverter/IS_Misc_MultibusConverter.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_LafArtilleryDataLog'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_LafArtilleryDataLog/IS_Misc_LafArtilleryDataLog.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_CpuCard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_CpuCard/IS_Misc_CpuCard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_PhoneLogs'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_PhoneLogs/IS_Misc_PhoneLogs.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_SpoofingAsic'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_SpoofingAsic/IS_Misc_SpoofingAsic.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_ExtractedEncryptionKeysDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ExtractedEncryptionKeysDrive/IS_Misc_ExtractedEncryptionKeysDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_FieldProgrammableGateArray'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_FieldProgrammableGateArray/IS_Misc_FieldProgrammableGateArray.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_FlightDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_FlightDataDrive/IS_Misc_FlightDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_AvionicsProcessorBoard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_AvionicsProcessorBoard/IS_Misc_AvionicsProcessorBoard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_IncriminatigDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_IncriminatigDataDrive/IS_Misc_IncriminatigDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ServerRamModule'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_ServerRamModule/IS_Misc_ServerRamModule.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_UplinkDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UplinkDataDrive/IS_Misc_UplinkDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_OvenControlledCrystalOscillator'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_OvenControlledCrystalOscillator/IS_Misc_OvenControlledCrystalOscillator.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_DeepSpaceDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_DeepSpaceDataDrive/IS_Misc_DeepSpaceDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_HighSpeedDigitalProcessorBoard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_HighSpeedDigitalProcessorBoard/IS_Misc_HighSpeedDigitalProcessorBoard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_ElectronicWarfareDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ElectronicWarfareDataDrive/IS_Misc_ElectronicWarfareDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_DigitalSynthesisEngine'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_DigitalSynthesisEngine/IS_Misc_DigitalSynthesisEngine.0"
+                }
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Electronics"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_RocketNavigationCircuit'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_RocketNavigationCircuit/IS_Misc_RocketNavigationCircuit.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_AiTargettingModule'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_AiTargettingModule/IS_Misc_AiTargettingModule.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Tech"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UnlraReliefManifest'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UnlraReliefManifest/IS_Misc_UnlraReliefManifest.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_LafArtilleryDataLog'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_LafArtilleryDataLog/IS_Misc_LafArtilleryDataLog.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PhoneLogs'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_PhoneLogs/IS_Misc_PhoneLogs.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_ExtractedEncryptionKeysDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ExtractedEncryptionKeysDrive/IS_Misc_ExtractedEncryptionKeysDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_FlightDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_FlightDataDrive/IS_Misc_FlightDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_IncriminatigDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_IncriminatigDataDrive/IS_Misc_IncriminatigDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UplinkDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UplinkDataDrive/IS_Misc_UplinkDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_DeepSpaceDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_DeepSpaceDataDrive/IS_Misc_DeepSpaceDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_ElectronicWarfareDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ElectronicWarfareDataDrive/IS_Misc_ElectronicWarfareDataDrive.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            }
+          ]
+        },
+        {
+          "Margin": 0.3,
+          "Rules": [
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Weapon"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Suppressor"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Scope"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Collimator"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  }
+                ],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.1,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Ammo"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Suppressor"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Scope"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Collimator"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Funds"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Laboratory"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.HackingTool"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Electronics"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Tech"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  }
+                ],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Laboratory"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_MorphineSolution'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_MorphineSolution/IS_Misc_MorphineSolution.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_StabilizedMorphineSulfateLiquid'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_StabilizedMorphineSulfateLiquid/IS_Misc_StabilizedMorphineSulfateLiquid.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UspMorphineSulfate'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_UspMorphineSulfate/IS_Misc_UspMorphineSulfate.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_GrayHeroin'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_GrayHeroin/IS_Misc_GrayHeroin.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PureWhiteHeroin'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PureWhiteHeroin/IS_Misc_PureWhiteHeroin.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_LqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_LqMorphineBase/IS_Misc_LqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_MqMorphineBase/IS_Misc_MqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_HqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_HqMorphineBase/IS_Misc_HqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PressurizedSarinCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PressurizedSarinCanister/IS_Misc_PressurizedSarinCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_BiohazardMaterialContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_BiohazardMaterialContainer/IS_Misc_BiohazardMaterialContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PlutoniumCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PlutoniumCanister/IS_Misc_PlutoniumCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_NerveGasCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_NerveGasCanister/IS_Misc_NerveGasCanister.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Key"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                null
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Funds"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.HideoutMaterial.Building"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.HideoutMaterial.Disassembly"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_RocketTargettingHead'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_RocketTargettingHead/IS_Misc_RocketTargettingHead.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_RocketNavigationCircuit'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_RocketNavigationCircuit/IS_Misc_RocketNavigationCircuit.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ChemicalChargesContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_ChemicalChargesContainer/IS_Misc_ChemicalChargesContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PressurizedSarinCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PressurizedSarinCanister/IS_Misc_PressurizedSarinCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MilitaryDroneInterceptor'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_MilitaryDroneInterceptor/IS_Misc_MilitaryDroneInterceptor.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_AiTargettingModule'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_AiTargettingModule/IS_Misc_AiTargettingModule.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MilitaryChemicalsContainmentCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_MilitaryChemicalsContainmentCanister/IS_Misc_MilitaryChemicalsContainmentCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_BiohazardMaterialContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_BiohazardMaterialContainer/IS_Misc_BiohazardMaterialContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ThermoelectricGeneratorCell'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_ThermoelectricGeneratorCell/IS_Misc_ThermoelectricGeneratorCell.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PlutoniumCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PlutoniumCanister/IS_Misc_PlutoniumCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_LastLineDefenceContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_LastLineDefenceContainer/IS_Misc_LastLineDefenceContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_NerveGasCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_NerveGasCanister/IS_Misc_NerveGasCanister.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": true,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_UnlraReliefManifest'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UnlraReliefManifest/IS_Misc_UnlraReliefManifest.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MultibusConverter'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_MultibusConverter/IS_Misc_MultibusConverter.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_LafArtilleryDataLog'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_LafArtilleryDataLog/IS_Misc_LafArtilleryDataLog.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_CpuCard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_CpuCard/IS_Misc_CpuCard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_PhoneLogs'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_PhoneLogs/IS_Misc_PhoneLogs.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_SpoofingAsic'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_SpoofingAsic/IS_Misc_SpoofingAsic.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_ExtractedEncryptionKeysDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ExtractedEncryptionKeysDrive/IS_Misc_ExtractedEncryptionKeysDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_FieldProgrammableGateArray'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_FieldProgrammableGateArray/IS_Misc_FieldProgrammableGateArray.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_FlightDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_FlightDataDrive/IS_Misc_FlightDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_AvionicsProcessorBoard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_AvionicsProcessorBoard/IS_Misc_AvionicsProcessorBoard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_IncriminatigDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_IncriminatigDataDrive/IS_Misc_IncriminatigDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ServerRamModule'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_ServerRamModule/IS_Misc_ServerRamModule.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_UplinkDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UplinkDataDrive/IS_Misc_UplinkDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_OvenControlledCrystalOscillator'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_OvenControlledCrystalOscillator/IS_Misc_OvenControlledCrystalOscillator.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_DeepSpaceDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_DeepSpaceDataDrive/IS_Misc_DeepSpaceDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_HighSpeedDigitalProcessorBoard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_HighSpeedDigitalProcessorBoard/IS_Misc_HighSpeedDigitalProcessorBoard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_ElectronicWarfareDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ElectronicWarfareDataDrive/IS_Misc_ElectronicWarfareDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_DigitalSynthesisEngine'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_DigitalSynthesisEngine/IS_Misc_DigitalSynthesisEngine.0"
+                }
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Electronics"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_RocketNavigationCircuit'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_RocketNavigationCircuit/IS_Misc_RocketNavigationCircuit.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_AiTargettingModule'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_AiTargettingModule/IS_Misc_AiTargettingModule.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Tech"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UnlraReliefManifest'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UnlraReliefManifest/IS_Misc_UnlraReliefManifest.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_LafArtilleryDataLog'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_LafArtilleryDataLog/IS_Misc_LafArtilleryDataLog.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PhoneLogs'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_PhoneLogs/IS_Misc_PhoneLogs.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_ExtractedEncryptionKeysDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ExtractedEncryptionKeysDrive/IS_Misc_ExtractedEncryptionKeysDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_FlightDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_FlightDataDrive/IS_Misc_FlightDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_IncriminatigDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_IncriminatigDataDrive/IS_Misc_IncriminatigDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UplinkDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UplinkDataDrive/IS_Misc_UplinkDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_DeepSpaceDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_DeepSpaceDataDrive/IS_Misc_DeepSpaceDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_ElectronicWarfareDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ElectronicWarfareDataDrive/IS_Misc_ElectronicWarfareDataDrive.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            }
+          ]
+        },
+        {
+          "Margin": 0.3,
+          "Rules": [
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Weapon"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Suppressor"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Scope"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Collimator"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  }
+                ],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.1,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Ammo"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Suppressor"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Scope"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Collimator"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Funds"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Laboratory"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.HackingTool"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Electronics"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Tech"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  }
+                ],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Laboratory"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_MorphineSolution'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_MorphineSolution/IS_Misc_MorphineSolution.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_StabilizedMorphineSulfateLiquid'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_StabilizedMorphineSulfateLiquid/IS_Misc_StabilizedMorphineSulfateLiquid.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UspMorphineSulfate'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_UspMorphineSulfate/IS_Misc_UspMorphineSulfate.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_GrayHeroin'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_GrayHeroin/IS_Misc_GrayHeroin.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PureWhiteHeroin'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PureWhiteHeroin/IS_Misc_PureWhiteHeroin.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_LqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_LqMorphineBase/IS_Misc_LqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_MqMorphineBase/IS_Misc_MqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_HqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_HqMorphineBase/IS_Misc_HqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PressurizedSarinCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PressurizedSarinCanister/IS_Misc_PressurizedSarinCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_BiohazardMaterialContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_BiohazardMaterialContainer/IS_Misc_BiohazardMaterialContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PlutoniumCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PlutoniumCanister/IS_Misc_PlutoniumCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_NerveGasCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_NerveGasCanister/IS_Misc_NerveGasCanister.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Key"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                null
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Funds"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.HideoutMaterial.Building"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.HideoutMaterial.Disassembly"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_RocketTargettingHead'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_RocketTargettingHead/IS_Misc_RocketTargettingHead.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_RocketNavigationCircuit'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_RocketNavigationCircuit/IS_Misc_RocketNavigationCircuit.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ChemicalChargesContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_ChemicalChargesContainer/IS_Misc_ChemicalChargesContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PressurizedSarinCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PressurizedSarinCanister/IS_Misc_PressurizedSarinCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MilitaryDroneInterceptor'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_MilitaryDroneInterceptor/IS_Misc_MilitaryDroneInterceptor.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_AiTargettingModule'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_AiTargettingModule/IS_Misc_AiTargettingModule.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MilitaryChemicalsContainmentCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_MilitaryChemicalsContainmentCanister/IS_Misc_MilitaryChemicalsContainmentCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_BiohazardMaterialContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_BiohazardMaterialContainer/IS_Misc_BiohazardMaterialContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ThermoelectricGeneratorCell'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_ThermoelectricGeneratorCell/IS_Misc_ThermoelectricGeneratorCell.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PlutoniumCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PlutoniumCanister/IS_Misc_PlutoniumCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_LastLineDefenceContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_LastLineDefenceContainer/IS_Misc_LastLineDefenceContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_NerveGasCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_NerveGasCanister/IS_Misc_NerveGasCanister.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": true,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_UnlraReliefManifest'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UnlraReliefManifest/IS_Misc_UnlraReliefManifest.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MultibusConverter'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_MultibusConverter/IS_Misc_MultibusConverter.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_LafArtilleryDataLog'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_LafArtilleryDataLog/IS_Misc_LafArtilleryDataLog.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_CpuCard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_CpuCard/IS_Misc_CpuCard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_PhoneLogs'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_PhoneLogs/IS_Misc_PhoneLogs.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_SpoofingAsic'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_SpoofingAsic/IS_Misc_SpoofingAsic.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_ExtractedEncryptionKeysDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ExtractedEncryptionKeysDrive/IS_Misc_ExtractedEncryptionKeysDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_FieldProgrammableGateArray'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_FieldProgrammableGateArray/IS_Misc_FieldProgrammableGateArray.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_FlightDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_FlightDataDrive/IS_Misc_FlightDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_AvionicsProcessorBoard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_AvionicsProcessorBoard/IS_Misc_AvionicsProcessorBoard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_IncriminatigDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_IncriminatigDataDrive/IS_Misc_IncriminatigDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ServerRamModule'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_ServerRamModule/IS_Misc_ServerRamModule.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_UplinkDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UplinkDataDrive/IS_Misc_UplinkDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_OvenControlledCrystalOscillator'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_OvenControlledCrystalOscillator/IS_Misc_OvenControlledCrystalOscillator.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_DeepSpaceDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_DeepSpaceDataDrive/IS_Misc_DeepSpaceDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_HighSpeedDigitalProcessorBoard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_HighSpeedDigitalProcessorBoard/IS_Misc_HighSpeedDigitalProcessorBoard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_ElectronicWarfareDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ElectronicWarfareDataDrive/IS_Misc_ElectronicWarfareDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_DigitalSynthesisEngine'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_DigitalSynthesisEngine/IS_Misc_DigitalSynthesisEngine.0"
+                }
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Electronics"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_RocketNavigationCircuit'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_RocketNavigationCircuit/IS_Misc_RocketNavigationCircuit.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_AiTargettingModule'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_AiTargettingModule/IS_Misc_AiTargettingModule.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Tech"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UnlraReliefManifest'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UnlraReliefManifest/IS_Misc_UnlraReliefManifest.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_LafArtilleryDataLog'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_LafArtilleryDataLog/IS_Misc_LafArtilleryDataLog.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PhoneLogs'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_PhoneLogs/IS_Misc_PhoneLogs.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_ExtractedEncryptionKeysDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ExtractedEncryptionKeysDrive/IS_Misc_ExtractedEncryptionKeysDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_FlightDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_FlightDataDrive/IS_Misc_FlightDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_IncriminatigDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_IncriminatigDataDrive/IS_Misc_IncriminatigDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UplinkDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UplinkDataDrive/IS_Misc_UplinkDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_DeepSpaceDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_DeepSpaceDataDrive/IS_Misc_DeepSpaceDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_ElectronicWarfareDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ElectronicWarfareDataDrive/IS_Misc_ElectronicWarfareDataDrive.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            }
+          ]
+        },
+        {
+          "Margin": 0.3,
+          "Rules": [
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Weapon"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Suppressor"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Scope"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.WeaponPart.Collimator"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  }
+                ],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.1,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Ammo"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Suppressor"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Scope"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.15,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.WeaponPart.Collimator"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Funds"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Laboratory"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.HackingTool"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Electronics"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  {
+                    "ItemType": {
+                      "TagName": "Item.Type.Misc.Tech"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  }
+                ],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Laboratory"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_MorphineSolution'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_MorphineSolution/IS_Misc_MorphineSolution.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_StabilizedMorphineSulfateLiquid'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_StabilizedMorphineSulfateLiquid/IS_Misc_StabilizedMorphineSulfateLiquid.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UspMorphineSulfate'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_UspMorphineSulfate/IS_Misc_UspMorphineSulfate.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_GrayHeroin'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_GrayHeroin/IS_Misc_GrayHeroin.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PureWhiteHeroin'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PureWhiteHeroin/IS_Misc_PureWhiteHeroin.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_LqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_LqMorphineBase/IS_Misc_LqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_MqMorphineBase/IS_Misc_MqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_HqMorphineBase'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/ProductionMaterial/Misc_HqMorphineBase/IS_Misc_HqMorphineBase.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PressurizedSarinCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PressurizedSarinCanister/IS_Misc_PressurizedSarinCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_BiohazardMaterialContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_BiohazardMaterialContainer/IS_Misc_BiohazardMaterialContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PlutoniumCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PlutoniumCanister/IS_Misc_PlutoniumCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_NerveGasCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_NerveGasCanister/IS_Misc_NerveGasCanister.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Key"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                null
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Funds"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": false,
+              "RuleTypeList": false,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.HideoutMaterial.Building"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.HideoutMaterial.Disassembly"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_RocketTargettingHead'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_RocketTargettingHead/IS_Misc_RocketTargettingHead.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_RocketNavigationCircuit'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_RocketNavigationCircuit/IS_Misc_RocketNavigationCircuit.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ChemicalChargesContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_ChemicalChargesContainer/IS_Misc_ChemicalChargesContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PressurizedSarinCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PressurizedSarinCanister/IS_Misc_PressurizedSarinCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MilitaryDroneInterceptor'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_MilitaryDroneInterceptor/IS_Misc_MilitaryDroneInterceptor.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_AiTargettingModule'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_AiTargettingModule/IS_Misc_AiTargettingModule.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MilitaryChemicalsContainmentCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_MilitaryChemicalsContainmentCanister/IS_Misc_MilitaryChemicalsContainmentCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_BiohazardMaterialContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_BiohazardMaterialContainer/IS_Misc_BiohazardMaterialContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ThermoelectricGeneratorCell'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_ThermoelectricGeneratorCell/IS_Misc_ThermoelectricGeneratorCell.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PlutoniumCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_PlutoniumCanister/IS_Misc_PlutoniumCanister.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_LastLineDefenceContainer'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/DisassemblyMaterial/Misc_LastLineDefenceContainer/IS_Misc_LastLineDefenceContainer.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_NerveGasCanister'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Laboratory/Misc_NerveGasCanister/IS_Misc_NerveGasCanister.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": true,
+              "Margin": 1.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_UnlraReliefManifest'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UnlraReliefManifest/IS_Misc_UnlraReliefManifest.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_MultibusConverter'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_MultibusConverter/IS_Misc_MultibusConverter.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_LafArtilleryDataLog'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_LafArtilleryDataLog/IS_Misc_LafArtilleryDataLog.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_CpuCard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_CpuCard/IS_Misc_CpuCard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_PhoneLogs'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_PhoneLogs/IS_Misc_PhoneLogs.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_SpoofingAsic'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_SpoofingAsic/IS_Misc_SpoofingAsic.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_ExtractedEncryptionKeysDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ExtractedEncryptionKeysDrive/IS_Misc_ExtractedEncryptionKeysDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_FieldProgrammableGateArray'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_FieldProgrammableGateArray/IS_Misc_FieldProgrammableGateArray.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_FlightDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_FlightDataDrive/IS_Misc_FlightDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_AvionicsProcessorBoard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_AvionicsProcessorBoard/IS_Misc_AvionicsProcessorBoard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_IncriminatigDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_IncriminatigDataDrive/IS_Misc_IncriminatigDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_ServerRamModule'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_ServerRamModule/IS_Misc_ServerRamModule.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_UplinkDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UplinkDataDrive/IS_Misc_UplinkDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_OvenControlledCrystalOscillator'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_OvenControlledCrystalOscillator/IS_Misc_OvenControlledCrystalOscillator.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_DeepSpaceDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_DeepSpaceDataDrive/IS_Misc_DeepSpaceDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_HighSpeedDigitalProcessorBoard'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_HighSpeedDigitalProcessorBoard/IS_Misc_HighSpeedDigitalProcessorBoard.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsMiscItem'IS_Misc_ElectronicWarfareDataDrive'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ElectronicWarfareDataDrive/IS_Misc_ElectronicWarfareDataDrive.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHideoutMaterial'IS_Misc_DigitalSynthesisEngine'",
+                  "ObjectPath": "/Game/Items/Miscellaneous/Materials/CraftingMaterial/Misc_DigitalSynthesisEngine/IS_Misc_DigitalSynthesisEngine.0"
+                }
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Electronics"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_RocketNavigationCircuit'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_RocketNavigationCircuit/IS_Misc_RocketNavigationCircuit.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_AiTargettingModule'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Valuables/Electronics/Misc_AiTargettingModule/IS_Misc_AiTargettingModule.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": false,
+              "Margin": 0.75,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "Item.Type.Misc.Tech"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": true,
+                "ExclusionRules": [],
+                "ExclusionList": [
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UnlraReliefManifest'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UnlraReliefManifest/IS_Misc_UnlraReliefManifest.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_LafArtilleryDataLog'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_LafArtilleryDataLog/IS_Misc_LafArtilleryDataLog.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_PhoneLogs'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_PhoneLogs/IS_Misc_PhoneLogs.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_ExtractedEncryptionKeysDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ExtractedEncryptionKeysDrive/IS_Misc_ExtractedEncryptionKeysDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_FlightDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_FlightDataDrive/IS_Misc_FlightDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_IncriminatigDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_IncriminatigDataDrive/IS_Misc_IncriminatigDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_UplinkDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_UplinkDataDrive/IS_Misc_UplinkDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_DeepSpaceDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_DeepSpaceDataDrive/IS_Misc_DeepSpaceDataDrive.0"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsMiscItem'IS_Misc_ElectronicWarfareDataDrive'",
+                    "ObjectPath": "/Game/Items/Miscellaneous/Materials/Tech/Misc_ElectronicWarfareDataDrive/IS_Misc_ElectronicWarfareDataDrive.0"
+                  }
+                ]
+              },
+              "ItemList": []
+            }
+          ]
+        }
+      ],
+      "BuyRules": [
+        {
+          "Margin": 1.0,
+          "Rules": [
+            {
+              "MarginOverride": false,
+              "RuleTypeList": true,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingsFirearm'IS_Firearm_Type51'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Firearms/Firearm_Type51/IS_Firearm_Type51.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearm'IS_Firearm_M201C'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Firearms/Firearm_M201C/IS_Firearm_M201C.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearm'IS_Firearm_Remington788'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Firearms/Firearm_Remington788/IS_Firearm_Remington788.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_Type51Grips'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_Type51Grips/IS_PistolGrip_Type51Grips.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_Type51WoodenGrip'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_Type51WoodenGrip/IS_PistolGrip_Type51WoodenGrip.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_Vz61Wooden'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_Vz61Wooden/IS_PistolGrip_Vz61Wooden.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearm'IS_Firearm_Sks'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Firearms/Firearm_Sks/IS_Firearm_Sks.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_Vz61Polymer'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_Vz61Polymer/IS_PistolGrip_Vz61Polymer.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_M201cgrips'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_M201cgrips/IS_PistolGrip_M201cgrips.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_Vz61Wire'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_Vz61Wire/IS_Stock_Vz61Wire.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_SksWood'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_SksWood/IS_Stock_SksWood.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_Remington788Stock'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_Remington788Stock/IS_Stock_Remington788Stock.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_Type51_762x25'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_Type51_762x25/IS_Barrel_Type51_762x25.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_M201c46inch_9x19'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_M201c46inch_9x19/IS_Barrel_M201c46inch_9x19.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_Remington78822inch_222'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_Remington78822inch_222/IS_Barrel_Remington78822inch_222.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmHandle'IS_Handle_vz61ChargingKnob'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/ChargingHandles/Handle_vz61ChargingKnob/IS_Handle_vz61ChargingKnob.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_SksBarrelPicatinnyMount'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_SksBarrelPicatinnyMount/IS_Mount_SksBarrelPicatinnyMount.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_Bm1AkmAccessoryMount'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_Bm1AkmAccessoryMount/IS_Mount_Bm1AkmAccessoryMount.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_Type51_8Rnd_762x25'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_Type51_8Rnd_762x25/IS_Mag_Type51_8Rnd_762x25.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_Vz61_10Rnd_765'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_Vz61_10Rnd_765/IS_Mag_Vz61_10Rnd_765.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_Vz61_20Rnd_765'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_Vz61_20Rnd_765/IS_Mag_Vz61_20Rnd_765.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_SksOriginal_10Rnd_762x39'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_SksOriginal_10Rnd_762x39/IS_Mag_SksOriginal_10Rnd_762x39.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_M201c_8Rnd_9x19'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_M201c_8Rnd_9x19/IS_Mag_M201c_8Rnd_9x19.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_Remington788_4Rnd_222'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_Remington788_4Rnd_222/IS_Mag_Remington788_4Rnd_222.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmAuxiliary'IS_Auxiliary_SksCoverPin'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Auxiliaries/Auxiliary_SksCoverPin/IS_Auxiliary_SksCoverPin.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_SksRearSight'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_SksRearSight/IS_Sight_SksRearSight.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_Remington788RearSight'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_Remington788RearSight/IS_Sight_Remington788RearSight.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_Remington788FrontSight'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_Remington788FrontSight/IS_Sight_Remington788FrontSight.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_Fmj_762x25'",
+                  "ObjectPath": "/Game/Items/Ammunitions/762x25mm/Ammo_Fmj_762x25/IS_Ammo_Fmj_762x25.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_Pt_762x25'",
+                  "ObjectPath": "/Game/Items/Ammunitions/762x25mm/Ammo_Pt_762x25/IS_Ammo_Pt_762x25.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_765BrowningFmj_765'",
+                  "ObjectPath": "/Game/Items/Ammunitions/765mmBrowning/Ammo_765BrowningFmj_765/IS_Ammo_765BrowningFmj_765.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_765BrowningJhp_765'",
+                  "ObjectPath": "/Game/Items/Ammunitions/765mmBrowning/Ammo_765BrowningJhp_765/IS_Ammo_765BrowningJhp_765.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_Fmj_45Acp'",
+                  "ObjectPath": "/Game/Items/Ammunitions/45ACP/Ammo_Fmj_45Acp/IS_Ammo_Fmj_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_JhpP_45Acp'",
+                  "ObjectPath": "/Game/Items/Ammunitions/45ACP/Ammo_JhpP_45Acp/IS_Ammo_JhpP_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_Sp_762x39'",
+                  "ObjectPath": "/Game/Items/Ammunitions/762x39mm/Ammo_Sp_762x39/IS_Ammo_Sp_762x39.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_Us_762x39'",
+                  "ObjectPath": "/Game/Items/Ammunitions/762x39mm/Ammo_Us_762x39/IS_Ammo_Us_762x39.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_Sp_222'",
+                  "ObjectPath": "/Game/Items/Ammunitions/222Remington/Ammo_Sp_222/IS_Ammo_Sp_222.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_FMJ_222'",
+                  "ObjectPath": "/Game/Items/Ammunitions/222Remington/Ammo_FMJ_222/IS_Ammo_FMJ_222.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_Famas_25Rnd_556x45'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_Famas_25Rnd_556x45/IS_Mag_Famas_25Rnd_556x45.0"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WPP_Slide_Type33Slide_IronSights'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Slides/Slide_Type33Slide/IS_WPP_Slide_Type33Slide_IronSights.2"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WPP_Slide_Type51Slide_IronSights'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Slides/Slide_Type51Slide/IS_WPP_Slide_Type51Slide_IronSights.2"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WPP_Firearm_SkorpionVz61_IronSights'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Firearms/Firearm_SkorpionVz61/IS_WPP_Firearm_SkorpionVz61_IronSights.6"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WPP_Slide_M201cSlide_IronSights'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Slides/Slide_M201cSlide/IS_WPP_Slide_M201cSlide_IronSights.2"
+                },
+                {
+                  "ObjectName": "MFGSettingsHelmet'IS_Helmet_SSh60'",
+                  "ObjectPath": "/Game/Items/Gear/Helmets/Helmet_SSh60/IS_Helmet_SSh60.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHelmet'IS_Helmet_SSh68n'",
+                  "ObjectPath": "/Game/Items/Gear/Helmets/Helmet_SSh68n/IS_Helmet_SSh68n.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHelmet'IS_Helmet_Type66'",
+                  "ObjectPath": "/Game/Items/Gear/Helmets/Helmet_Type66/IS_Helmet_Type66.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsHeadphones'IS_Headset_ConstructionEarmuffs'",
+                  "ObjectPath": "/Game/Items/Gear/Headsets/Headset_ConstructionEarmuffs/IS_Headset_ConstructionEarmuffs.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsBelt'IS_Belt_CivilianSportFannyPack'",
+                  "ObjectPath": "/Game/Items/Gear/Belts/Belt_CivilianSportFannyPack/IS_Belt_CivilianSportFannyPack.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsRig'IS_Rig_UniversalChestBag'",
+                  "ObjectPath": "/Game/Items/Gear/TacticalRigs/Rig_UniversalChestBag/IS_Rig_UniversalChestBag.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsRig'IS_Rig_BikerChestRig'",
+                  "ObjectPath": "/Game/Items/Gear/TacticalRigs/Rig_BikerChestRig/IS_Rig_BikerChestRig.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsArmorVest'IS_Vest_UnbrandedMolleVest'",
+                  "ObjectPath": "/Game/Items/Gear/BallisticVests/Vest_UnbrandedMolleVest/IS_Vest_UnbrandedMolleVest.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsBackpack'IS_Backpack_SportBackpack'",
+                  "ObjectPath": "/Game/Items/Gear/Backpacks/Backpack_SportBackpack/IS_Backpack_SportBackpack.0"
+                }
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": true,
+              "Margin": 1.3,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_M201C_Artisan_L1'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L1/IS_WP_M201C_Artisan_L1.6"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_Remington788_Artisan_L1'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L1/IS_WP_Remington788_Artisan_L1.10"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_SkorpionVz61_Artisan_L1'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L1/IS_WP_SkorpionVz61_Artisan_L1.6"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_SKS_Artisan_L1'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L1/IS_WP_SKS_Artisan_L1.5"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_Type51_Artisan_L1'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L1/IS_WP_Type51_Artisan_L1.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Margin": 1.0,
+          "Rules": [
+            {
+              "MarginOverride": false,
+              "RuleTypeList": true,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingsFirearm'IS_Firearm_MosinNagant'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Firearms/Firearm_MosinNagant/IS_Firearm_MosinNagant.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmSlide'IS_Slide_Colt1911ComanderSlide'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Slides/Slide_Colt1911ComanderSlide/IS_Slide_Colt1911ComanderSlide.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_Colt1911StandardGrips'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_Colt1911StandardGrips/IS_PistolGrip_Colt1911StandardGrips.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_Colt1911PlasticGrips'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_Colt1911PlasticGrips/IS_PistolGrip_Colt1911PlasticGrips.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearm'IS_Firearm_MosinNagantSniper'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Firearms/Firearm_MosinNagantSniper/IS_Firearm_MosinNagantSniper.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmSlide'IS_Slide_Colt1911Slide'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Slides/Slide_Colt1911Slide/IS_Slide_Colt1911Slide.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmSlide'IS_Slide_Colt1911LongSlide6'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Slides/Slide_Colt1911LongSlide6/IS_Slide_Colt1911LongSlide6.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_MagpulMoeAk'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_MagpulMoeAk/IS_PistolGrip_MagpulMoeAk.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_AtiSksStrikeforceTactLite'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_AtiSksStrikeforceTactLite/IS_Stock_AtiSksStrikeforceTactLite.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_MosinCarbineWooden'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_MosinCarbineWooden/IS_Stock_MosinCarbineWooden.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_MosinRifleWooden'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_MosinRifleWooden/IS_Stock_MosinRifleWooden.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_MosinSniperRifleWooden'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_MosinSniperRifleWooden/IS_Stock_MosinSniperRifleWooden.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_Type51Threaded_762x25'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_Type51Threaded_762x25/IS_Barrel_Type51Threaded_762x25.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_Colt1911_45Acp'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_Colt1911_45Acp/IS_Barrel_Colt1911_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_Colt19116inch_45Acp'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_Colt19116inch_45Acp/IS_Barrel_Colt19116inch_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_Colt1911Threaded_45Acp'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_Colt1911Threaded_45Acp/IS_Barrel_Colt1911Threaded_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_Colt1911Comander_45Acp'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_Colt1911Comander_45Acp/IS_Barrel_Colt1911Comander_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_Colt1911Comander_45AcpThreaded'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_Colt1911Comander_45AcpThreaded/IS_Barrel_Colt1911Comander_45AcpThreaded.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_Mosin514mm_762x54'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_Mosin514mm_762x54/IS_Barrel_Mosin514mm_762x54.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmHandGuard'IS_Handguard_MagpulMoeAk'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Handguards/Handguard_MagpulMoeAk/IS_Handguard_MagpulMoeAk.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMuzzleDevice'IS_Muzzle_SksAdapterMuzzleBrake'",
+                  "ObjectPath": "/Game/Items/WeaponParts/MuzzleDevices/Adapters/Muzzle_SksAdapterMuzzleBrake/IS_Muzzle_SksAdapterMuzzleBrake.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmSuppressor'IS_Suppressor_Vz61TosSuppressor'",
+                  "ObjectPath": "/Game/Items/WeaponParts/MuzzleDevices/Suppressors/Suppressor_Vz61TosSuppressor/IS_Suppressor_Vz61TosSuppressor.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmSuppressor'IS_Suppressor_Type51Suppressor'",
+                  "ObjectPath": "/Game/Items/WeaponParts/MuzzleDevices/Suppressors/Suppressor_Type51Suppressor/IS_Suppressor_Type51Suppressor.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_MosinKochetovMount'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_MosinKochetovMount/IS_Mount_MosinKochetovMount.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_KochetovringsforPu3522'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_KochetovringsforPu3522/IS_Mount_KochetovringsforPu3522.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_SksRearSightPicatinnyRail'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_SksRearSightPicatinnyRail/IS_Mount_SksRearSightPicatinnyRail.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_Vz61TacticalMount'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_Vz61TacticalMount/IS_Mount_Vz61TacticalMount.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_Colt1911_7Rnd_45Acp'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_Colt1911_7Rnd_45Acp/IS_Mag_Colt1911_7Rnd_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_SksArchangelLVLX_20Rnd_762x39'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_SksArchangelLVLX_20Rnd_762x39/IS_Mag_SksArchangelLVLX_20Rnd_762x39.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_MosinInternalMagazine_5Rnd_762x54'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_MosinInternalMagazine_5Rnd_762x54/IS_Mag_MosinInternalMagazine_5Rnd_762x54.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmAuxiliary'IS_Auxiliary_Colt1911Hammer'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Auxiliaries/Auxiliary_Colt1911Hammer/IS_Auxiliary_Colt1911Hammer.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmAuxiliary'IS_Auxiliary_Colt1911CommanderHammer'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Auxiliaries/Auxiliary_Colt1911CommanderHammer/IS_Auxiliary_Colt1911CommanderHammer.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmScope'IS_Sight_PiladP25x24lBrevis'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/AssaultScopes/Sight_PiladP25x24lBrevis/IS_Sight_PiladP25x24lBrevis.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmScope'IS_Sight_Pu3522scopeforMosinNagant'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/Scopes/Sight_Pu3522scopeforMosinNagant/IS_Sight_Pu3522scopeforMosinNagant.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_MosinFrontSight'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_MosinFrontSight/IS_Sight_MosinFrontSight.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_MosinRearSight'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_MosinRearSight/IS_Sight_MosinRearSight.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_1911TrijconTritiumFrontSight'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_1911TrijconTritiumFrontSight/IS_Sight_1911TrijconTritiumFrontSight.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_1911TrijconTritiumRearSight'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_1911TrijconTritiumRearSight/IS_Sight_1911TrijconTritiumRearSight.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_ColtCommanderRearSight'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_ColtCommanderRearSight/IS_Sight_ColtCommanderRearSight.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_ColtCommanderFrontSight'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_ColtCommanderFrontSight/IS_Sight_ColtCommanderFrontSight.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_Remington788PicatinnyRail'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_Remington788PicatinnyRail/IS_Mount_Remington788PicatinnyRail.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearm'IS_Firearm_Colt1911'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Firearms/Firearm_Colt1911/IS_Firearm_Colt1911.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearm'IS_Firearm_Colt1911Commander'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Firearms/Firearm_Colt1911Commander/IS_Firearm_Colt1911Commander.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_Pst_762x25'",
+                  "ObjectPath": "/Game/Items/Ammunitions/762x25mm/Ammo_Pst_762x25/IS_Ammo_Pst_762x25.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_765Browning55grXtremeDefender_765'",
+                  "ObjectPath": "/Game/Items/Ammunitions/765mmBrowning/Ammo_765Browning55grXtremeDefender_765/IS_Ammo_765Browning55grXtremeDefender_765.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_HydraShock_45Acp'",
+                  "ObjectPath": "/Game/Items/Ammunitions/45ACP/Ammo_HydraShock_45Acp/IS_Ammo_HydraShock_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_Lps_762x54'",
+                  "ObjectPath": "/Game/Items/Ammunitions/762x54R/Ammo_Lps_762x54/IS_Ammo_Lps_762x54.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_Hp_222'",
+                  "ObjectPath": "/Game/Items/Ammunitions/222Remington/Ammo_Hp_222/IS_Ammo_Hp_222.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_VMax_222'",
+                  "ObjectPath": "/Game/Items/Ammunitions/222Remington/Ammo_VMax_222/IS_Ammo_VMax_222.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_UMPFoldingAPC'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_UMPFoldingAPC/IS_Stock_UMPFoldingAPC.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_FamasGripRail'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_FamasGripRail/IS_Mount_FamasGripRail.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_UMPTriRail'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_UMPTriRail/IS_Mount_UMPTriRail.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_UMP_25Rnd_45Acp'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_UMP_25Rnd_45Acp/IS_Mag_UMP_25Rnd_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_Mosin730mm_762x54'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_Mosin730mm_762x54/IS_Barrel_Mosin730mm_762x54.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_Colt1911FrontSightLPA'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_Colt1911FrontSightLPA/IS_Sight_Colt1911FrontSightLPA.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmIronSights'IS_Sight_Colt1911RearSightLPA'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Sights/IronSights/Sight_Colt1911RearSightLPA/IS_Sight_Colt1911RearSightLPA.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_UMPStabBrace'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_UMPStabBrace/IS_Stock_UMPStabBrace.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsBackpack'IS_Backpack_MoabJamBall'",
+                  "ObjectPath": "/Game/Items/Gear/Backpacks/Backpack_MoabJamBall/IS_Backpack_MoabJamBall.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsKeyRing'IS_Case_LeatherKeyHolder'",
+                  "ObjectPath": "/Game/Items/Containers/TravelCases/Case_LeatherKeyHolder/IS_Case_LeatherKeyHolder.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsWallet'IS_Case_LeatherWallet'",
+                  "ObjectPath": "/Game/Items/Containers/TravelCases/Case_LeatherWallet/IS_Case_LeatherWallet.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProvisionCase'IS_Case_FlipLidPersonalCooler'",
+                  "ObjectPath": "/Game/Items/Containers/StashCases/ProvisionCase/Case_FlipLidPersonalCooler/IS_Case_FlipLidPersonalCooler.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsGearCase'IS_Case_SportsmansTrunkLarge'",
+                  "ObjectPath": "/Game/Items/Containers/StashCases/GearCase/Case_SportsmansTrunkLarge/IS_Case_SportsmansTrunkLarge.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdminCase'IS_Case_AdminPouch'",
+                  "ObjectPath": "/Game/Items/Containers/TravelCases/Case_AdminPouch/IS_Case_AdminPouch.0"
+                }
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": true,
+              "Margin": 1.3,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_Colt1911_Artisan_L2'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L2/IS_WP_Colt1911_Artisan_L2.8"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_Colt1911Comander_Artisan_L2'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L2/IS_WP_Colt1911Comander_Artisan_L2.9"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_MosinSniper_Artisan_L2'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L2/IS_WP_MosinSniper_Artisan_L2.9"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_SkorpionVz61_Artisan_L2'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L2/IS_WP_SkorpionVz61_Artisan_L2.9"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_SkorpionVz61_Artisan_L2_1'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L2/IS_WP_SkorpionVz61_Artisan_L2_1.6"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_SKS_Artisan_L2'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L2/IS_WP_SKS_Artisan_L2.14"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_Type51_Artisan_L2'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L2/IS_WP_Type51_Artisan_L2.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Margin": 1.0,
+          "Rules": [
+            {
+              "MarginOverride": false,
+              "RuleTypeList": true,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_ArchangelAkSeries'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_ArchangelAkSeries/IS_PistolGrip_ArchangelAkSeries.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_ArchangelAkSeriesTan'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_ArchangelAkSeriesTan/IS_PistolGrip_ArchangelAkSeriesTan.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMuzzleDevice'IS_Muzzle_MosinTacfireTankerStyleMuzzleBrake'",
+                  "ObjectPath": "/Game/Items/WeaponParts/MuzzleDevices/MuzzleBrakes/Muzzle_MosinTacfireTankerStyleMuzzleBrake/IS_Muzzle_MosinTacfireTankerStyleMuzzleBrake.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_MosinNagantTriRailScopeMount'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_MosinNagantTriRailScopeMount/IS_Mount_MosinNagantTriRailScopeMount.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_SksKodiakDefenceRail'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_SksKodiakDefenceRail/IS_Mount_SksKodiakDefenceRail.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_1911VortexMount'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_1911VortexMount/IS_Mount_1911VortexMount.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_1911TrijiconMount'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_1911TrijiconMount/IS_Mount_1911TrijiconMount.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_Ap_45Acp'",
+                  "ObjectPath": "/Game/Items/Ammunitions/45ACP/Ammo_Ap_45Acp/IS_Ammo_Ap_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_T46MTracer_762x54'",
+                  "ObjectPath": "/Game/Items/Ammunitions/762x54R/Ammo_T46MTracer_762x54/IS_Ammo_T46MTracer_762x54.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_SksMatadorArmsSabertoothMkII'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_SksMatadorArmsSabertoothMkII/IS_Stock_SksMatadorArmsSabertoothMkII.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_MosinProMagArchangel'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_MosinProMagArchangel/IS_Stock_MosinProMagArchangel.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmSuppressor'IS_Suppressor_MosinBramitSuppressor'",
+                  "ObjectPath": "/Game/Items/WeaponParts/MuzzleDevices/Suppressors/Suppressor_MosinBramitSuppressor/IS_Suppressor_MosinBramitSuppressor.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_1911GripScopeMount'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_1911GripScopeMount/IS_Mount_1911GripScopeMount.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_SksArchangel_35Rnd_762x39'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_SksArchangel_35Rnd_762x39/IS_Mag_SksArchangel_35Rnd_762x39.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_MosinArchangel_10Rnd_762x54'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_MosinArchangel_10Rnd_762x54/IS_Mag_MosinArchangel_10Rnd_762x54.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_G3Stock'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_G3Stock/IS_Stock_G3Stock.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_G3Buffertube'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_G3Buffertube/IS_Stock_G3Buffertube.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmBarrel'IS_Barrel_UMP_Threaded45Acp'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Barrels/Barrel_UMP_Threaded45Acp/IS_Barrel_UMP_Threaded45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmHandGuard'IS_Handguard_G3'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Handguards/Handguard_G3/IS_Handguard_G3.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmHandGuard'IS_Handguard_G3Wooden'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Handguards/Handguard_G3Wooden/IS_Handguard_G3Wooden.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_G3ScopeMount'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_G3ScopeMount/IS_Mount_G3ScopeMount.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_Colt1911ProMag_15Rnd_45Acp'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_Colt1911ProMag_15Rnd_45Acp/IS_Mag_Colt1911ProMag_15Rnd_45Acp.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_G3_15Rnd_762x51'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_G3_15Rnd_762x51/IS_Mag_G3_15Rnd_762x51.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_Colt1911CC3PGrips'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_Colt1911CC3PGrips/IS_PistolGrip_Colt1911CC3PGrips.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_G3Wooden'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_G3Wooden/IS_Stock_G3Wooden.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmHandGuard'IS_Handguard_USCExtended'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Handguards/Handguard_USCExtended/IS_Handguard_USCExtended.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmHandle'IS_Handle_HkG3Handle'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/ChargingHandles/Handle_HkG3Handle/IS_Handle_HkG3Handle.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_G3HKStyle'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_G3HKStyle/IS_PistolGrip_G3HKStyle.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmHandGuard'IS_Handguard_UMPExtended'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Handguards/Handguard_UMPExtended/IS_Handguard_UMPExtended.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsKeyRing'IS_Case_KeyCase'",
+                  "ObjectPath": "/Game/Items/Containers/TravelCases/Case_KeyCase/IS_Case_KeyCase.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdminCase'IS_Case_KombatFolder'",
+                  "ObjectPath": "/Game/Items/Containers/TravelCases/Case_KombatFolder/IS_Case_KombatFolder.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsIntelItemsCase'IS_Case_AdminDesk'",
+                  "ObjectPath": "/Game/Items/Containers/StashCases/AdminDesk/IS_Case_AdminDesk.0"
+                }
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": true,
+              "Margin": 1.3,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_Artisan_SKS_L3'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L3/IS_WP_Artisan_SKS_L3.18"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_Colt1911_Artisan_L3'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L3/IS_WP_Colt1911_Artisan_L3.11"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_Colt1911Comander_Artisan_L3'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L3/IS_WP_Colt1911Comander_Artisan_L3.12"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_MosinSniper_Artisan_L3'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L3/IS_WP_MosinSniper_Artisan_L3.13"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Margin": 1.0,
+          "Rules": [
+            {
+              "MarginOverride": false,
+              "RuleTypeList": true,
+              "Margin": 0.0,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingsFirearmPistolGrip'IS_PistolGrip_ZenitcoRk9'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/PistolGrips/PistolGrip_ZenitcoRk9/IS_PistolGrip_ZenitcoRk9.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_7N1SniperRound_762x54'",
+                  "ObjectPath": "/Game/Items/Ammunitions/762x54R/Ammo_7N1SniperRound_762x54/IS_Ammo_7N1SniperRound_762x54.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsProjectile'IS_Ammo_7N13Ap_762x54'",
+                  "ObjectPath": "/Game/Items/Ammunitions/762x54R/Ammo_7N13Ap_762x54/IS_Ammo_7N13Ap_762x54.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmHandGuard'IS_Handguard_G3MLok'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Handguards/Handguard_G3MLok/IS_Handguard_G3MLok.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmHandGuard'IS_Handguard_G3MlokExt'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Handguards/Handguard_G3MlokExt/IS_Handguard_G3MlokExt.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsAdapter'IS_Mount_G3ScopeMountLow'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Attachments/Mounts/Mount_G3ScopeMountLow/IS_Mount_G3ScopeMountLow.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_G3_20Rnd_762x51'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_G3_20Rnd_762x51/IS_Mag_G3_20Rnd_762x51.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_G3Spuhr'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_G3Spuhr/IS_Stock_G3Spuhr.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsFireArmStock'IS_Stock_G3Folding'",
+                  "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Stocks/Stock_G3Folding/IS_Stock_G3Folding.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsBackpack'IS_Backpack_Patagonia70l'",
+                  "ObjectPath": "/Game/Items/Gear/Backpacks/Backpack_Patagonia70l/IS_Backpack_Patagonia70l.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsKeyRing'IS_Case_BigKeyCase'",
+                  "ObjectPath": "/Game/Items/Containers/TravelCases/KeyRing/Case_BigKeyCase/IS_Case_BigKeyCase.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsWallet'IS_Case_TacticalWallet'",
+                  "ObjectPath": "/Game/Items/Containers/TravelCases/Wallet/Case_TacticalWallet/IS_Case_TacticalWallet.0"
+                },
+                {
+                  "ObjectName": "MFGSettingsGearCase'IS_Case_MM24Case'",
+                  "ObjectPath": "/Game/Items/Containers/StashCases/GearCase/Case_MM24Case/IS_Case_MM24Case.0"
+                }
+              ]
+            },
+            {
+              "MarginOverride": true,
+              "RuleTypeList": true,
+              "Margin": 1.3,
+              "Count": 0,
+              "GenerationRules": {
+                "SelectionRule": {
+                  "ItemType": {
+                    "TagName": "None"
+                  },
+                  "ItemTags": [],
+                  "UseLevel": false,
+                  "Level": "EMFGItemValueLevel::One",
+                  "Source": 0
+                },
+                "ExclusionTypeList": false,
+                "ExclusionRules": [],
+                "ExclusionList": []
+              },
+              "ItemList": [
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_MosinSniper_Artisan_L4'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L4/IS_WP_MosinSniper_Artisan_L4.13"
+                },
+                {
+                  "ObjectName": "MFGSettingPreset'IS_WP_SKS_Artisan_L4'",
+                  "ObjectPath": "/Game/Items/WeaponParts/Presets/PRESSETS_04_VENDORS/ARTISAN/L4/IS_WP_SKS_Artisan_L4.17"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "QuestsRules": [
+        {
+          "Quest": {
+            "AssetPathName": "/Game/Gameplay/Quests/VendorStock/DA_Quest_Stock_Artisan_Quest_01.DA_Quest_Stock_Artisan_Quest_01",
+            "SubPathString": ""
+          },
+          "TableRules": {
+            "Margin": 3.0,
+            "Rules": [
+              {
+                "MarginOverride": false,
+                "RuleTypeList": true,
+                "Margin": 0.0,
+                "Count": 0,
+                "GenerationRules": {
+                  "SelectionRule": {
+                    "ItemType": {
+                      "TagName": "None"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  "ExclusionTypeList": false,
+                  "ExclusionRules": [],
+                  "ExclusionList": []
+                },
+                "ItemList": [
+                  {
+                    "ObjectName": "MFGSettingPreset'IS_WP_Type51_Hammerhead'",
+                    "ObjectPath": "/Game/Items/WeaponParts/Presets/TT/BOSS/IS_WP_Type51_Hammerhead.6"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_Type51_8Rnd_762x25Hammerhead'",
+                    "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_Type51_8Rnd_762x25Hammerhead/IS_Mag_Type51_8Rnd_762x25Hammerhead.0"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Quest": {
+            "AssetPathName": "/Game/Gameplay/Quests/VendorStock/DA_Quest_Stock_Artisan_Quest_02.DA_Quest_Stock_Artisan_Quest_02",
+            "SubPathString": ""
+          },
+          "TableRules": {
+            "Margin": 3.0,
+            "Rules": [
+              {
+                "MarginOverride": false,
+                "RuleTypeList": true,
+                "Margin": 0.0,
+                "Count": 0,
+                "GenerationRules": {
+                  "SelectionRule": {
+                    "ItemType": {
+                      "TagName": "None"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  "ExclusionTypeList": false,
+                  "ExclusionRules": [],
+                  "ExclusionList": []
+                },
+                "ItemList": [
+                  {
+                    "ObjectName": "MFGSettingPreset'IS_WP_Type51_Pencil'",
+                    "ObjectPath": "/Game/Items/WeaponParts/Presets/TT/BOSS/IS_WP_Type51_Pencil.6"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_Type51_8Rnd_762x25Pencil'",
+                    "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_Type51_8Rnd_762x25Pencil/IS_Mag_Type51_8Rnd_762x25Pencil.0"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Quest": {
+            "AssetPathName": "/Game/Gameplay/Quests/VendorStock/DA_Quest_Stock_Artisan_Quest_03.DA_Quest_Stock_Artisan_Quest_03",
+            "SubPathString": ""
+          },
+          "TableRules": {
+            "Margin": 4.286,
+            "Rules": [
+              {
+                "MarginOverride": false,
+                "RuleTypeList": true,
+                "Margin": 0.0,
+                "Count": 0,
+                "GenerationRules": {
+                  "SelectionRule": {
+                    "ItemType": {
+                      "TagName": "None"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  "ExclusionTypeList": false,
+                  "ExclusionRules": [],
+                  "ExclusionList": []
+                },
+                "ItemList": [
+                  {
+                    "ObjectName": "MFGSettingPreset'IS_WP_Akmn_JC'",
+                    "ObjectPath": "/Game/Items/WeaponParts/Presets/AK/IS_WP_Akmn_JC.19"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_PmagAkm_30Rnd_762x39JC'",
+                    "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_PmagAkm_30Rnd_762x39JC/IS_Mag_PmagAkm_30Rnd_762x39JC.0"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Quest": {
+            "AssetPathName": "/Game/Gameplay/Quests/VendorStock/DA_Quest_Stock_Artisan_Quest_04.DA_Quest_Stock_Artisan_Quest_04",
+            "SubPathString": ""
+          },
+          "TableRules": {
+            "Margin": 1.944,
+            "Rules": [
+              {
+                "MarginOverride": false,
+                "RuleTypeList": true,
+                "Margin": 0.0,
+                "Count": 0,
+                "GenerationRules": {
+                  "SelectionRule": {
+                    "ItemType": {
+                      "TagName": "None"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  "ExclusionTypeList": false,
+                  "ExclusionRules": [],
+                  "ExclusionList": []
+                },
+                "ItemList": [
+                  {
+                    "ObjectName": "MFGSettingPreset'IS_WP_SVD_SW'",
+                    "ObjectPath": "/Game/Items/WeaponParts/Presets/SVD/IS_WP_SVD_SW.23"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_SvdDragunov_20Rnd_762x54SW'",
+                    "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_SvdDragunov_20Rnd_762x54SW/IS_Mag_SvdDragunov_20Rnd_762x54SW.0"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Quest": {
+            "AssetPathName": "/Game/Gameplay/Quests/VendorStock/DA_Quest_Stock_Artisan_Quest_05.DA_Quest_Stock_Artisan_Quest_05",
+            "SubPathString": ""
+          },
+          "TableRules": {
+            "Margin": 4.091,
+            "Rules": [
+              {
+                "MarginOverride": false,
+                "RuleTypeList": true,
+                "Margin": 0.0,
+                "Count": 0,
+                "GenerationRules": {
+                  "SelectionRule": {
+                    "ItemType": {
+                      "TagName": "None"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  "ExclusionTypeList": false,
+                  "ExclusionRules": [],
+                  "ExclusionList": []
+                },
+                "ItemList": [
+                  {
+                    "ObjectName": "MFGSettingPreset'IS_WP_G3_ZH'",
+                    "ObjectPath": "/Game/Items/WeaponParts/Presets/G3/IS_WP_G3_ZH.19"
+                  },
+                  {
+                    "ObjectName": "MFGSettingsFirearmMagazine'IS_Mag_G3Polymer_20Rnd_762x51ZH'",
+                    "ObjectPath": "/Game/Items/WeaponParts/FunctionalParts/Magazines/Mag_G3Polymer_20Rnd_762x51ZH/IS_Mag_G3Polymer_20Rnd_762x51ZH.0"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Quest": {
+            "AssetPathName": "/Game/Gameplay/Quests/YBL1Region/DA_Quest_Epic_Labrat_Quest_01.DA_Quest_Epic_Labrat_Quest_01",
+            "SubPathString": ""
+          },
+          "TableRules": {
+            "Margin": 1.0,
+            "Rules": [
+              {
+                "MarginOverride": false,
+                "RuleTypeList": true,
+                "Margin": 0.0,
+                "Count": 0,
+                "GenerationRules": {
+                  "SelectionRule": {
+                    "ItemType": {
+                      "TagName": "None"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  "ExclusionTypeList": false,
+                  "ExclusionRules": [],
+                  "ExclusionList": []
+                },
+                "ItemList": [
+                  {
+                    "ObjectName": "MFGSettingPreset'IS_WP_Famas_Default'",
+                    "ObjectPath": "/Game/Items/WeaponParts/Presets/famas/IS_WP_Famas_Default.8"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Quest": {
+            "AssetPathName": "/Game/Gameplay/Quests/SawmillRegion/DA_Quest_Epic_Labrat_Quest_04.DA_Quest_Epic_Labrat_Quest_04",
+            "SubPathString": ""
+          },
+          "TableRules": {
+            "Margin": 1.0,
+            "Rules": [
+              {
+                "MarginOverride": false,
+                "RuleTypeList": true,
+                "Margin": 0.0,
+                "Count": 0,
+                "GenerationRules": {
+                  "SelectionRule": {
+                    "ItemType": {
+                      "TagName": "None"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  "ExclusionTypeList": false,
+                  "ExclusionRules": [],
+                  "ExclusionList": []
+                },
+                "ItemList": [
+                  {
+                    "ObjectName": "MFGSettingPreset'IS_WP_G3_Default'",
+                    "ObjectPath": "/Game/Items/WeaponParts/Presets/G3/IS_WP_G3_Default.9"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Quest": {
+            "AssetPathName": "/Game/Gameplay/Quests/HuntersParadiseRegion/DA_Quest_Epic_Labrat_Quest_02.DA_Quest_Epic_Labrat_Quest_02",
+            "SubPathString": ""
+          },
+          "TableRules": {
+            "Margin": 1.0,
+            "Rules": [
+              {
+                "MarginOverride": false,
+                "RuleTypeList": true,
+                "Margin": 0.0,
+                "Count": 0,
+                "GenerationRules": {
+                  "SelectionRule": {
+                    "ItemType": {
+                      "TagName": "None"
+                    },
+                    "ItemTags": [],
+                    "UseLevel": false,
+                    "Level": "EMFGItemValueLevel::One",
+                    "Source": 0
+                  },
+                  "ExclusionTypeList": false,
+                  "ExclusionRules": [],
+                  "ExclusionList": []
+                },
+                "ItemList": [
+                  {
+                    "ObjectName": "MFGSettingPreset'IS_WP_UMP_Default'",
+                    "ObjectPath": "/Game/Items/WeaponParts/Presets/UMP/IS_WP_UMP_Default.10"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "LevelEXP": [
+        0.0,
+        750.0,
+        3750.0,
+        19500.0
+      ],
+      "SpentMoneyExpRatio": [
+        0.002,
+        0.002,
+        0.002,
+        0.002
+      ],
+      "ReceivedMoneyExpRatio": [
+        0.006,
+        0.006,
+        0.006,
+        0.006
+      ]
+    }
+  }
+]
